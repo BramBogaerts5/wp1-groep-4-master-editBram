@@ -1,0 +1,45 @@
+{
+  "customers": [{
+    "lastname": "Baerts",
+    "firstname": "Jan",
+    "mail": "jan.baerts@student.pxl.be"
+  }, {
+    "lastname": "Bogaerts",
+    "firstname": "Bram",
+    "mail": "bram.bogaerts@student.pxl.be"
+  }, {
+      "lastname": "Van Suetendael",
+      "firstname": "Steven",
+      "mail": "steven.van.suetendael@student.pxl.be"
+  }],
+  "rooms": [{
+    "id": "10",
+    "doublebed": false,
+    "bath": false
+  }, {
+    "id": "11",
+    "doublebed": false,
+    "bath": true
+  }, {
+    "id": "20",
+    "doublebed": true,
+    "bath": false
+  }, {
+    "id": "21",
+    "doublebed": true,
+    "bath": false
+  }, {
+    "id": "30",
+    "doublebed": true,
+    "bath": true
+  }],
+  "bookings": [{
+    "mail": "jan.baerts@student.pxl.be",
+    "id": "30",
+    "date": "2019-10-08"
+  }, {
+    "mail": "bram.bogaerts@student.pxl.be",
+    "id": "30",
+    "date": "2019-10-15"
+  }]
+}
